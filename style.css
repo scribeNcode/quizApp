@@ -34,6 +34,7 @@ body{
     margin-top: 50%;
     width: 98%;
     border-radius: 5px;
+    display: none;
 }
 
 ol{
@@ -44,6 +45,13 @@ ol{
 .quiz-wrapper-btn{
     width: 6rem;
     height: 2rem; 
+}
+
+
+/* quiz question */
+
+.questions-container-header{
+    display: flex;
 }
 
 
