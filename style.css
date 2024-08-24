@@ -11,13 +11,40 @@ body{
 
 /* button div */
 
-.button-wrapper{
+.start-button-wrapper{
     background: red;
     width: fit-content;
     margin-top: 50vh;
 }
 
-.button-wrapper button{
+.start-btn{
     width: 7rem;
     height: 2.5rem;
 }
+
+.start-button-wrapper, .start-btn{
+    display: none;
+}
+
+
+/* quiz-wrapper div */
+
+.quiz-wrapper{
+    background: white;  
+    margin-top: 50%;
+    width: 98%;
+    border-radius: 5px;
+}
+
+ol{
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+
+.quiz-wrapper-btn{
+    width: 6rem;
+    height: 2rem; 
+}
+
+
+
